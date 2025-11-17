@@ -1,0 +1,28 @@
+======= PRIMERA PARTE =========
+
+| SEGUNDOS A MINUTOS Y SEGUNDOS |
+    int segundos = int.Parse(Console.ReadLine());
+    int minutos = segundos / 60;
+    int segMinutos = segundos % 60;
+
+| MINUTOS A HORAS Y MINUTOS |
+    int minutos = int.Parse(Console.ReadLine());
+    int horas = minutos / 60;
+    int minHoras = minutos % 60;
+
+| INTERCAMBIAR VALORES DE A Y B CON VARIABLE AUXILIAR |
+    string A = Console.ReadLine();
+    string B = Console.ReadLine();
+    auxiliar = A;
+    A = B;
+    B = auxiliar;
+
+| FORMULAS |
+>>> Interés = capital * tasa * tiempo / 100
+>>> Perimetro Circunferencia = 2 * π * radio
+>>> IMC = peso / (altura * altura)
+>>> F = (C × 9/5) + 32 //Celsius a Fahrenheit
+
+======== SEGUNDA PARTE ==========
+
+
